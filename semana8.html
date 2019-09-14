@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>aula 6</title>
+	<style type="text/css">
+		table{
+			width: 53%;
+			background-color: #CCC;
+		}
+		
+		td, th{
+			padding: 8px;
+			text-align: left;
+
+		}
+
+		th{
+			background-color: #226666;
+			color: white;
+		}
+	
+		tr:nth-child(even){
+			background-color: #f2f2f2;
+		}
+		form:nth-child(even){ 
+			background-color: #f2f2f2;	
+			width: 53%;
+			
+		}
+		
+		input[type=submit]{
+			width: 50%;
+			align-items: right;
+			background-color: #4CAF50;
+			padding: 1%;
+			color: white;
+			border-radius: 4px;
+			border: none;
+			cursor: pointer;
+		}
+		input[type=text] {
+			padding: 0.5%;
+			width: 48%;
+		}
+	</style>
+
+
+</head>
+<body>
+	<table>
+		<tr>
+			<th>Nome</th>
+			<th>Sobrenome</th>
+			<th>Idade</th>
+		</tr>
+		<tr>
+			<td>Francisco</td>
+			<td>Assis</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>João Paulo</td>
+			<td>Nascimento</td>
+			<td>27</td>
+		</tr>
+		<tr>
+			<td>Carlos Henrique</td>
+			<td>Costa</td>
+			<td>44</td>
+		</tr>
+
+		<tr>
+			<td>Amanda</td>
+			<td>Gurgel</td>
+			<td>21</td>
+		</tr>
+	</table>
+	<br><br>
+	<form method="post" enctype="text/plain">
+		<br>
+		<label>Nome</label>
+		<br>
+		<br>
+		<input type="text" name="text" placeholder="Seu nome...">
+		<br>
+		<br>
+		<b><label>Sobre Nome</label></b>
+		<br>
+		<br>
+		<input type="text" name="text" placeholder="Seu sobrenome">
+		<br>
+		<br>
+		<b><label>Idade</label></b>
+		<br>
+		<br>
+		<input type="text" name="text" placeholder="Sua idade">
+		<br>
+		<br>
+		<input type="submit" value="Enviar" name="submit">
+	</form>
+</body>
+</html>
