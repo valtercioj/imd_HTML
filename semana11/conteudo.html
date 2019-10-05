@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>reclamações</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Valtercio Junior"/>
+	<style type="text/css">
+		body{
+			background-color: lightblue;
+		}
+		#topo{
+			background-color: #7FFFD4;
+			height: 200px;
+			text-align: center;
+		}
+		#reclamacao{
+			background-color: #00FFFF;
+			text-align: center;
+
+		}
+		input[name="reclamacao"]{
+			height: 200px;
+			width: 500px;
+		}
+	</style>
+</head>
+<body>
+	<div id="topo">
+		<br><br>
+
+		<h1>Todas as suas informações serão estarão	protegidas em total sigilo, nós garatimos a sua integridade com total responsabilidade.	</h1>
+	</div>
+	<div id="reclamacao">
+		<form action="reclamacao.html" method="post">
+			<br><br><br><br>
+			<label>Quem será destinado sua reclamação?</label>
+			<br><br>
+			<input type="text" name="tema" placeholder="digite aqui">
+			<br><br><br>
+			<input type="text" name="reclamacao" placeholder="digite sua reclamação">
+			<br><br>
+			<input type="submit" name="enviar" value="enviar">
+		</form>
+	</div>
+	<br><br><br><br>
+	<form action="duvidas.html" method="post">
+		<b><label>Tem duvidas? Fale conosco</label></b>
+		<br><br>
+		<input type="text" name="duvidas" placeholder="Digite sua duvida">
+		<br><br>
+		<input type="submit" name="enviar" value="enviar">
+
+
+	</form>
+</body>
+</html>
